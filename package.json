@@ -1,0 +1,28 @@
+{
+	"name": "psmmlauncher",
+	"version": "1.2.0",
+	"description": "Launcher for PSMM apps.",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron-forge start",
+		"package": "electron-forge package",
+		"make": "electron-forge make"
+	},
+	"author": "Mateusz Owczarek",
+	"license": "ISC",
+	"devDependencies": {
+		"@electron-forge/cli": "^6.0.4",
+		"@electron-forge/maker-deb": "^6.0.4",
+		"@electron-forge/maker-rpm": "^6.0.4",
+		"@electron-forge/maker-squirrel": "^6.0.4",
+		"@electron-forge/maker-zip": "^6.0.4",
+		"@types/node": "^18.14.0",
+		"electron": "^22.0.0",
+		"eslint": "^8.29.0"
+	},
+	"dependencies": {
+		"axios": "^1.2.1",
+		"electron-squirrel-startup": "^1.0.0",
+		"serve-static": "^1.15.0"
+	}
+}

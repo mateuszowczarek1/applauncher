@@ -1,0 +1,9 @@
+node_modules
+out
+.vscode
+oldversions
+utils/downloadDittoManifests.js
+utils/exportPahts.js
+testlauncher.odt
+testlauncher.pdf
+
